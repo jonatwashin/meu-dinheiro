@@ -1,0 +1,28 @@
+{
+  "id": "meu-dinheiro",
+  "name": "Meu Dinheiro",
+  "short_name": "Meu Dinheiro",
+  "description": "Controle financeiro pessoal: descubra exatamente para onde seu dinheiro está indo.",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "start_url": "./meu-dinheiro.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "orientation": "any",
+  "theme_color": "#0e7c6b",
+  "background_color": "#f4f6f8",
+  "categories": ["finance", "productivity"],
+  "prefer_related_applications": false,
+  "icons": [
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "./icons/apple-touch-icon.png", "sizes": "180x180", "type": "image/png", "purpose": "any" }
+  ],
+  "shortcuts": [
+    { "name": "Novo lançamento", "short_name": "Lançar", "url": "./meu-dinheiro.html#/tx" },
+    { "name": "Dashboard", "short_name": "Dashboard", "url": "./meu-dinheiro.html#/dashboard" },
+    { "name": "Análises", "short_name": "Análises", "url": "./meu-dinheiro.html#/analytics" }
+  ]
+}
